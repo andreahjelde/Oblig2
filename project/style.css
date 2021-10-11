@@ -22,37 +22,37 @@
 */
 
 
-*{
-    
+*{ 
     margin: 0;
     padding: 0;
-    border: 0;
     
 }
 
-
+/*STYLING TIL HEADER*/
 
 header{
     height: 55vh;
     background-color: #cccccc;
     background-image: url("assets/img/studentsbg.png");
     background-repeat: no-repeat;
-    background-position: top;
+    /*background-position: center top;*/
     background-size: cover;
+    position: relative;
     
-
 }
 
 
-
 header div{
-    
     background-color: #c5192d;
-    background-position: center;
     text-align: center;
+    position: absolute;
+    bottom: -4rem;
     
-    
-    
+    width: 50%;
+    height: 50%;
+    left: 25%;
+
+   
 }
 
 
