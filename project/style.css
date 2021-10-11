@@ -1,0 +1,59 @@
+
+/* 
+<header>
+        It conatins the main heading of the page and some introductory text
+
+        The container will be 55vh tall
+        •It sets a background image (“studentsbg.png” from assets/img folder)
+        •The background image will not scroll with the page
+
+        •The background image will be placed at the top of the screen, 
+            and it will be centered horizontally
+
+        •The background image will be scaled “as large as possible to fill the container, 
+            stretching the image if necessary. 
+            If the proportions of the image differ from the element, 
+            it is cropped either vertically or horizontally so that no empty space remains”
+
+        •The background colourof the div inside the header is #c5192d
+
+•The div inside the header will be pushed down 4rem 
+(   i.e.: it is positioned relative to its nearest positioned ancestor which is the header)
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+
+
+header{
+    height: 55vh;
+    background-color: #cccccc;
+    background-image: url("assets/img/studentsbg.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center top; 
+    background-size: cover;
+    
+
+}
+
+
+
+header div{
+    
+    background-color: #c5192d;
+    background-size: contain;
+    text-align: center;
+    position: relative;
+    
+    
+}
+
+
+
