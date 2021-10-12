@@ -1,6 +1,6 @@
 /*
 The whole page sets linear gradient with the following values 
-“(135deg, #f5f7fa 0%, #c3cfe2 100%)”
+“(135deg, #f5f7fa 0%, #c3cfe2 100%)”X
 */
 
 /*
@@ -32,7 +32,25 @@ The paragraph will never exceed 70ch wide and the distance
 the distance between lines of text will be set to 1.5
 */
 
+
+html{
+    height: 100%;
+}
 body{
+    background-image:“(135deg, #f5f7fa 0%, #c3cfe2 100%)”;
+    background-repeat: no-repeat;
     font-family: Lato/*Importer denne*/, sans-serif;
     font-size: 14px;
+}
+
+h1{
+font-family: m
+}
+
+h2{
+
+}
+
+h3{
+
 }
