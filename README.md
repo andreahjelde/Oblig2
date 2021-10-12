@@ -19,7 +19,7 @@ The default font size for thecontents of the page will be 1.2rem
 
 
 The headings (h1-h3) will use “Montserrat” 
-type face and sans-serif as a fallback font.
+type face and sans-serif as a fallback font.X
 
 
 
