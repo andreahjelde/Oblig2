@@ -45,10 +45,12 @@ body{
 }
 
 h1{
+    size: 4rem;
     @font-face {
         font-family:Montserrat, sans-serif;
         src: url(project\assets\fonts\Montserrat-Bold.ttf);
     }
+
 
 }
 

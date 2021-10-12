@@ -10,7 +10,7 @@ The whole page sets linear gradient with the following values
 
 
 The main font will be “Lato” and 
-sans-serif will be defined as fallback font. 
+sans-serif will be defined as fallback font.X 
 
 The default browser font size must be set to 14px. X
 
@@ -18,7 +18,7 @@ The default browser font size must be set to 14px. X
 The default font size for thecontents of the page will be 1.2rem
 
 
-The headings (h1-h3) will use “Montserrat” 
+The headings (h1-h3) will use “Montserrat” X
 type face and sans-serif as a fallback font.X
 
 
