@@ -37,5 +37,10 @@ header div{
    
 }
 
-
+body{
+    background-image:“(135deg, #f5f7fa 0%, #c3cfe2 100%)”;
+    background-repeat: no-repeat;
+    font-family: Lato/*Importer denne*/, sans-serif;
+    font-size: 14px;
+}
 
