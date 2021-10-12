@@ -45,7 +45,7 @@ body{
 }
 
 h1{
-    size: 4rem;
+    font-size: 4rem;
     @font-face {
         font-family:Montserrat, sans-serif;
         src: url(project\assets\fonts\Montserrat-Bold.ttf);
@@ -55,6 +55,7 @@ h1{
 }
 
 h2{
+    font-size: 2.2rem;
     @font-face {
         font-family:Montserrat, sans-serif;
         src: url(project\assets\fonts\Montserrat-Bold.ttf);
@@ -63,6 +64,7 @@ h2{
 }
 
 h3{
+
     @font-face {
         font-family:Montserrat, sans-serif;
         src: url(project\assets\fonts\Montserrat-Bold.ttf);

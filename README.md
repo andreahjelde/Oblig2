@@ -23,9 +23,9 @@ type face and sans-serif as a fallback font.X
 
 
 
-H1 elements will have a size of 4rem
+H1 elements will have a size of 4rem   X
 
-H2 elements will have a size of 2.2rem
+H2 elements will have a size of 2.2rem X
 
 
 The paragraph will never exceed 70ch wide and the distance 
