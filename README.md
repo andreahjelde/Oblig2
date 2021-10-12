@@ -6,10 +6,10 @@ Andrea test
 Kaja oppgave
 
 The whole page sets linear gradient with the following values 
-“(135deg, #f5f7fa 0%, #c3cfe2 100%)”
+“(135deg, #f5f7fa 0%, #c3cfe2 100%)” X?
 
 
-The main font will be “Lato” and 
+The main font will be “Lato” and X
 sans-serif will be defined as fallback font.X 
 
 The default browser font size must be set to 14px. X
@@ -30,3 +30,6 @@ H2 elements will have a size of 2.2rem X
 
 The paragraph will never exceed 70ch wide and the distance 
 the distance between lines of text will be set to 1.5
+
+Fonten i bodyen overkjører fonten i headerne..
+gradient???

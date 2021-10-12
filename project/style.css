@@ -5,6 +5,7 @@
     padding: 0;
     border: 0;
     
+    
 }
 
 /*STYLING TIL HEADER - Andrea*/
@@ -41,9 +42,12 @@ html{
     height: 100%;
 }
 body{
-    background-image:“(135deg, #f5f7fa 0%, #c3cfe2 100%)”;
+    background:(135deg, #f5f7fa 0%, #c3cfe2 100%);
     background-repeat: no-repeat;
-    font-family: Lato/*Importer denne*/, sans-serif;
+    @font-face {
+        font-family:Lato, sans-serif ;
+        src: url(http://www.google.com/fonts/specimen/Lato);
+    }
     font-size: 14px;
 }
 
@@ -72,6 +76,10 @@ h3{
         src: url(project\assets\fonts\Montserrat-Bold.ttf);
     }
 
+}
+
+p{
+    
 }
 
 
