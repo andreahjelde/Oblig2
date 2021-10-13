@@ -22,8 +22,8 @@ H1 elements will have a size of 4rem   X
 
 H2 elements will have a size of 2.2rem X
 
-The paragraph will never exceed 70ch wide and the distance 
-the distance between lines of text will be set to 1.5
+The paragraph will never exceed 70ch wide and the distance X
+the distance between lines of text will be set to 1.5X
 
 Fonten i bodyen overkjører fonten i headerne..
-gradient???
+

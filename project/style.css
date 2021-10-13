@@ -40,7 +40,6 @@ header div{
 /*Generallgreier Kaja*/
 html{
     
-
     font-size: 14px;
 }
 
@@ -63,7 +62,7 @@ h1,
 h2,
 h3 {
     @font-face {
-        font-family:Montserrat, sans-serif;
+        font-style:Montserrat, sans-serif;
         src: url(project\assets\fonts\Montserrat-Bold.ttf);
     }
 
@@ -80,7 +79,8 @@ h2{
 
 
 p{
-
+    line-height: 1.5;
+    width: 70ch;
 }
 
 
