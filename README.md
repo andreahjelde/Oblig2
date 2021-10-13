@@ -6,7 +6,7 @@ Andrea test
 Kaja oppgave
 
 The whole page sets linear gradient with the following values 
-“(135deg, #f5f7fa 0%, #c3cfe2 100%)” X?
+“(135deg, #f5f7fa 0%, #c3cfe2 100%)” X
 
 The main font will be “Lato” and X
 sans-serif will be defined as fallback font.X 
