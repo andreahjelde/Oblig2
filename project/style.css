@@ -5,7 +5,7 @@
     padding: 0;
     border: 0;
     
-    
+
 }
 
 /*STYLING TIL HEADER - Andrea*/
@@ -40,43 +40,43 @@ header div{
 /*Generallgreier Kaja*/
 html{
     height: 100%;
+
+    font-size: 14px;
 }
+
 body{
+
     background-image:(135deg, #f5f7fa 0%, #c3cfe2 100%);
     background-repeat: no-repeat;
+    
+    font-size: 1.2rem;
     @font-face {
         font-family:Lato, sans-serif ;
         src: url(http://www.google.com/fonts/specimen/Lato);
     }
-    font-size: 14px;
+   
+}
+
+
+h1,
+h2,
+h3 {
+    @font-face {
+        font-family:Montserrat, sans-serif;
+        src: url(project\assets\fonts\Montserrat-Bold.ttf);
+    }
+
 }
 
 h1{
     font-size: 4rem;
-    @font-face {
-        font-family:Montserrat, sans-serif;
-        src: url(project\assets\fonts\Montserrat-Bold.ttf);
-    }
-
 }
 
 h2{
     font-size: 2.2rem;
-    @font-face {
-        font-family:Montserrat, sans-serif;
-        src: url(project\assets\fonts\Montserrat-Bold.ttf);
-    }
-
 }
 
-h3{
 
-    @font-face {
-        font-family:Montserrat, sans-serif;
-        src: url(project\assets\fonts\Montserrat-Bold.ttf);
-    }
-
-}
 
 p{
 
