@@ -18,6 +18,7 @@ header{
     background-attachment: local;
     background-position: center top; 
     background-size: cover;
+    position: relative;
     
 
 }
@@ -29,7 +30,8 @@ header div{
     background-color: #c5192d;
     background-size: contain;
     text-align: center;
-    position: relative;
+    position: absolute;
+    bottom: -4rem;
     
     
     width: 50%;
@@ -37,6 +39,8 @@ header div{
     left: 25%;
    
 }
+
+
 /*Generallgreier Kaja*/
 html{
     
@@ -84,6 +88,11 @@ p{
 }
 
 
+/*intro-container - Andrea*/
 
-
-
+#intro-container{
+    padding: 5%;
+    margin: 5%;
+    background-color:#c5192d ;
+    z-index: 10;    
+}
