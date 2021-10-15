@@ -4,40 +4,14 @@
     margin: 0;
     padding: 0;
     border: 0;
-    
-
-}
-
-
-/*STYLING TIL HEADER - Andrea*/
-
-header{
-    height: 55vh;
-    background-color: #cccccc;
-    background-image: url("assets/img/studentsbg.png");
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-position: center top; 
-    background-size: cover;
-    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
 
 }
 
 
 
-header div{
-    
-    background-color: #c5192d;
-    background-size: contain;
-    text-align: center;
-    position: relative;
-    
-    
-    width: 50%;
-    height: 50%;
-    left: 25%;
-   
-}
 /*Generallgreier Kaja*/
 html{
     
@@ -110,15 +84,20 @@ header div{
     position: absolute;
     bottom: -4rem;
     
-    width: 50%;
-    height: 50%;
-    left: 25%;
-   
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    padding: 2rem;
 }
 
-main{
-    background-color: whitesmoke;
+header div h1{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
+
+
+
+
 
 
 /*main del oppgave Lars*/
@@ -127,27 +106,35 @@ main{
 article{
     box-shadow: 0 0 1px 0 darkgrey;
     background-color: whitesmoke;
+    width: 95vw;
+    margin-left: 2.5vw;
+    padding: 3rem;
 }
 
 
 
-#intro-container{
-    padding: 2%;     /*Husk å endre på dette*/
-    margin: 7%;     /*Husk å endre på dette*/
+/* intro-container - andrea*/ 
+main{
+    margin-top: 6rem;
+    
 }
 
-#intro-container div:first-child{
+#intro-container {
     background-color:#c5192d;
+    padding: 2rem;
 }
 
-
-#intro-container ul{
-    background-color: white;
+#intro-container h2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
+
 
 /*styling for å bytte ut punktene i listen til emojier - andrea*/
 #intro-container ul{
     list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 li::before{
