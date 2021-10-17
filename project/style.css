@@ -164,6 +164,8 @@ li:nth-child(3)::before{
 
 
 
+
+
 /* Screens 600px –960 px */
 
 /*General configurations - Andrea */
@@ -184,3 +186,33 @@ li:nth-child(3)::before{
 
 
 }
+
+
+
+
+
+
+
+
+
+
+/* Screens >960 px */
+
+/*General configurations - Andrea */
+
+@media screen and (min-width: 960px){
+    html{
+        font-size: 24px;
+    }
+
+    header{
+        height: 65vh;
+    }
+
+    header div,  main, footer{
+        width: 70vw;
+        margin-left: 15vw;
+    }
+}
+
+
