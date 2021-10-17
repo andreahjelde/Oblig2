@@ -1,21 +1,32 @@
 /* denne koden gjelder for hele siden - Andrea*/
 
+@font-face {
+    font-family: "Lato" ;
+    src: url(http://www.google.com/fonts/specimen/Lato);
+} 
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-     box-sizing: border-box;
-
+    box-sizing: border-box;
 }
 
+
+/* Screens < 600px */
 
 
 /*Generallgreier Kaja*/
 html{
-    
     font-size: 14px;
+    font-family: "Lato", fallback, sans-serif;
+    
+    
 }
 
 body{
@@ -25,22 +36,11 @@ body{
     background-repeat: no-repeat;
     
     font-size: 1.2rem;
-    @font-face {
-        font-family:Lato, sans-serif ;
-        src: url(http://www.google.com/fonts/specimen/Lato);
-    }
-   
 }
 
 
-h1,
-h2,
-h3 {
-    @font-face {
-        font-style:Montserrat, sans-serif;
-        src: url(project\assets\fonts\Montserrat-Bold.ttf);
-    }
-
+h1, h2, h3 {
+    font-family:"Montserrat", fallback, sans-serif;
 }
 
 h1{
@@ -50,7 +50,6 @@ h1{
 h2{
     font-size: 2.2rem;
 }
-
 
 
 p{
@@ -73,6 +72,8 @@ header{
     background-position: center top; 
     background-size: cover;
     position: relative;
+    color: white;
+    vertical-align: middle;
 }
 
 
@@ -100,6 +101,9 @@ header div h1{
 
 
 
+
+
+
 /*main del oppgave Lars*/
 
 
@@ -108,7 +112,11 @@ article{
     background-color: whitesmoke;
     width: 95vw;
     margin-left: 2.5vw;
-    padding: 3rem;
+    padding: 2rem;
+}
+
+img{
+    width: 2px;
 }
 
 
@@ -161,3 +169,6 @@ li:nth-child(3)::before{
 }
 
 
+
+
+/* Screens 600px –960 px */
