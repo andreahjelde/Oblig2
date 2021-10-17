@@ -166,6 +166,8 @@ li:nth-child(3)::before{
 
 /* Screens 600px –960 px */
 
+/*General configurations - Andrea */
+
 @media screen and (min-width: 600px){
     html{
         font-size: 16px;
