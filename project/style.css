@@ -63,8 +63,6 @@ p{
 
 
 
-
-
 /*HEADER - Andrea*/
 
 header{
@@ -101,20 +99,13 @@ header div h1{
 
 
 
-
-
-
-
 /*main del*/
-
 
 main{
     box-shadow: 0 0 1px 0 darkgrey;
     background-color: whitesmoke;
     padding: 2rem;
 }
-
-
 
 
 
@@ -252,10 +243,6 @@ li:nth-child(3)::before{
         background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%)
     }
 }
-
-
-
-
 
 
 
