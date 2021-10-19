@@ -1,4 +1,4 @@
-/* denne koden gjelder for hele siden - Andrea*/
+/* denne koden gjelder for hele siden*/
 
 @font-face {
     font-family: "Lato" ;
@@ -17,28 +17,21 @@
     box-sizing: border-box;
 }
 
-img{
-    width: 100%;
-    height: auto;
-}
+
 
 /* Screens < 600px */
 
 
-/*Generallgreier Kaja*/
+/*Generall configuration*/
 html{
     font-size: 14px;
     font-family: "Lato", fallback, sans-serif;
-    
-    
 }
 
 body{
     height: 100%;
-    background-image:
-    linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     background-repeat: no-repeat;
-    
     font-size: 1.2rem;
 }
 
@@ -53,6 +46,8 @@ h1{
 
 h2{
     font-size: 2.2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 
@@ -63,7 +58,7 @@ p{
 
 
 
-/*HEADER - Andrea*/
+/*HEADER*/
 
 header{
     height: 55vh;
@@ -75,7 +70,7 @@ header{
     background-size: cover;
     position: relative;
     color: white;
-    vertical-align: middle;
+    
 }
 
 
@@ -104,30 +99,37 @@ header div h1{
 main{
     box-shadow: 0 0 1px 0 darkgrey;
     background-color: whitesmoke;
-    padding: 2rem;
-}
-
-
-
-/* intro-container - andrea*/ 
-main{
     margin-top: 6rem;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
 }
 
-#intro-container {
+
+
+article{
+    border: 0.1px solid darkgrey;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+
+article img{
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;   
+}
+
+/* intro-container*/ 
+
+#intro-container{
     background-color:#c5192d;
     padding: 2rem;
 }
 
-#intro-container h2{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
 
 
-/*styling for å bytte ut punktene i listen til emojier - andrea*/
+
+/*styling for å bytte ut punktene i listen til emojier*/
 #intro-container ul{
     list-style: none;
     padding-top: 1rem;
@@ -157,7 +159,7 @@ li:nth-child(3)::before{
     margin-left: 1rem;
 }
 
-/* Vet ikke helt hvor i oppgaveteksten de ba om footer, men satt det inn her - Andrea*/
+/* footer */
 footer{
     width: 95vw;
     background-color: #c5192d;
@@ -181,7 +183,7 @@ footer{
 
 /* Screens 600px –960 px */
 
-/*General configurations - Andrea */
+/*General configurations*/
 
 @media screen and (min-width: 600px){
     html{
@@ -201,11 +203,7 @@ footer{
 
     /*article*/
 
-    article, #intro-container{
-        display: table-row;
-        min-width: 600px;
-    }
-
+ 
     img{
         float: right;
     }
@@ -215,6 +213,7 @@ footer{
         width: 45%;
         height: auto;
         float: left;
+        
     }
 
     #intro-container > div:nth-of-type(2){
@@ -237,7 +236,6 @@ footer{
         width: 45%;
         height: 50%;
         float: right;
-    
     }
 
     article:nth-of-type(3) > div{
@@ -252,6 +250,7 @@ footer{
         width: 45%;
         height: 50%;
         float: left;
+        padding-bottom: 0;
     }
 
     /* intro container*/
@@ -259,7 +258,7 @@ footer{
     #intro-container{
         background-color: #c5192d;
         height: 100%;
-        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%)
+        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
     }
 
    
@@ -270,7 +269,7 @@ footer{
 
 /* Screens >960 px */
 
-/*General configurations - Andrea */
+/*General configurations */
 
 @media screen and (min-width: 960px){
     html{
@@ -289,11 +288,6 @@ footer{
 
     /*article*/
 
-    article, #intro-container{
-        display: table-row;
-        min-width: 600px;
-    }
-
     img{
         float: right;
     }
@@ -325,7 +319,6 @@ footer{
         width: 45%;
         height: 50%;
         float: right;
-    
     }
 
     article:nth-of-type(3) > div{
@@ -349,7 +342,6 @@ footer{
         height: 100%;
         background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%)
     }
-
 
 }
 
