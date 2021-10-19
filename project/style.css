@@ -157,6 +157,24 @@ li:nth-child(3)::before{
     margin-left: 1rem;
 }
 
+/* Vet ikke helt hvor i oppgaveteksten de ba om footer, men satt det inn her - Andrea*/
+footer{
+    width: 95vw;
+    background-color: #c5192d;
+    color: white;
+    background-size: contain;
+    text-align: center;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    padding: 2rem;
+    margin-top: 2rem;
+    
+ }
+ 
+
+ a{
+     color: white;
+ }
 
 
 
@@ -180,6 +198,7 @@ li:nth-child(3)::before{
     }
 
 
+
     /*article*/
 
     article, #intro-container{
@@ -242,6 +261,8 @@ li:nth-child(3)::before{
         height: 100%;
         background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%)
     }
+
+   
 }
 
 
@@ -265,6 +286,7 @@ li:nth-child(3)::before{
         margin-left: 15vw;
     }
 
+
     /*article*/
 
     article, #intro-container{
@@ -327,6 +349,8 @@ li:nth-child(3)::before{
         height: 100%;
         background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%)
     }
+
+
 }
 
 
