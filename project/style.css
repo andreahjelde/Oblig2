@@ -192,21 +192,26 @@ li:nth-child(3)::before{
     /*article*/
 
     article, #intro-container{
-        display: flex;
-        max-width: inherit;
+        display: table-row;
+        min-width: 600px;
     }
 
+    img{
+        float: right;
+    }
     
     #intro-container > div:nth-of-type(1){
         margin-right: 5%;
         width: 45%;
         height: auto;
+        float: left;
     }
 
     #intro-container > div:nth-of-type(2){
         margin-left: 5%;
         width: 45%;
         height: auto;
+        float: right;
     }
 
 
@@ -214,13 +219,14 @@ li:nth-child(3)::before{
         margin-right: 5%;
         width: 45%;
         height: 50%;
-    
+        float: left;
     }
 
     article:nth-of-type(2) > img, article:nth-of-type(4) > img{
         margin-left:5%;
         width: 45%;
         height: 50%;
+        float: right;
     
     }
 
@@ -228,13 +234,14 @@ li:nth-child(3)::before{
         margin-left: 5%;
         width: 45%;
         height: 50%;
+        float: right;
     }
 
     article:nth-of-type(3) > img{
         margin-right:5%;
         width: 45%;
         height: 50%;
-    
+        float: left;
     }
 
     /* intro container*/
@@ -274,21 +281,26 @@ li:nth-child(3)::before{
     /*article*/
 
     article, #intro-container{
-        display: flex;
-        max-width: inherit;
+        display: table-row;
+        min-width: 600px;
     }
 
+    img{
+        float: right;
+    }
     
     #intro-container > div:nth-of-type(1){
         margin-right: 5%;
         width: 45%;
         height: auto;
+        float: left;
     }
 
     #intro-container > div:nth-of-type(2){
         margin-left: 5%;
         width: 45%;
         height: auto;
+        float: right;
     }
 
 
@@ -296,13 +308,14 @@ li:nth-child(3)::before{
         margin-right: 5%;
         width: 45%;
         height: 50%;
-    
+        float: left;
     }
 
     article:nth-of-type(2) > img, article:nth-of-type(4) > img{
         margin-left:5%;
         width: 45%;
         height: 50%;
+        float: right;
     
     }
 
@@ -310,13 +323,14 @@ li:nth-child(3)::before{
         margin-left: 5%;
         width: 45%;
         height: 50%;
+        float: right;
     }
 
     article:nth-of-type(3) > img{
         margin-right:5%;
         width: 45%;
         height: 50%;
-    
+        float: left;
     }
 
     /* intro container*/
