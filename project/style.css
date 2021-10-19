@@ -17,6 +17,10 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
 
 /* Screens < 600px */
 
@@ -101,10 +105,10 @@ header div h1{
 
 
 
-/*main del oppgave Lars*/
+/*main del*/
 
 
-article{
+main{
     box-shadow: 0 0 1px 0 darkgrey;
     background-color: whitesmoke;
     padding: 2rem;
@@ -185,9 +189,62 @@ li:nth-child(3)::before{
     }
 
 
+    /*article*/
+
+    article, #intro-container{
+        display: flex;
+        max-width: inherit;
+    }
+
+    
+    #intro-container > div:nth-of-type(1){
+        margin-right: 5%;
+        width: 45%;
+        height: auto;
+    }
+
+    #intro-container > div:nth-of-type(2){
+        margin-left: 5%;
+        width: 45%;
+        height: auto;
+    }
+
+
+    article:nth-of-type(2) > div, article:nth-of-type(4) > div{
+        margin-right: 5%;
+        width: 45%;
+        height: 50%;
+    
+    }
+
+    article:nth-of-type(2) > img, article:nth-of-type(4) > img{
+        margin-left:5%;
+        width: 45%;
+        height: 50%;
+    
+    }
+
+    article:nth-of-type(3) > div{
+        margin-left: 5%;
+        width: 45%;
+        height: 50%;
+    }
+
+    article:nth-of-type(3) > img{
+        margin-right:5%;
+        width: 45%;
+        height: 50%;
+    
+    }
+
+    /* intro container*/
+
+    #intro-container{
+        background-color: #c5192d;
+        height: 100%;
+        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%)
+    }
 }
-
-
 
 
 
@@ -212,6 +269,62 @@ li:nth-child(3)::before{
     header div,  main, footer{
         width: 70vw;
         margin-left: 15vw;
+    }
+
+    /*article*/
+
+    article, #intro-container{
+        display: flex;
+        max-width: inherit;
+    }
+
+    
+    #intro-container > div:nth-of-type(1){
+        margin-right: 5%;
+        width: 45%;
+        height: auto;
+    }
+
+    #intro-container > div:nth-of-type(2){
+        margin-left: 5%;
+        width: 45%;
+        height: auto;
+    }
+
+
+    article:nth-of-type(2) > div, article:nth-of-type(4) > div{
+        margin-right: 5%;
+        width: 45%;
+        height: 50%;
+    
+    }
+
+    article:nth-of-type(2) > img, article:nth-of-type(4) > img{
+        margin-left:5%;
+        width: 45%;
+        height: 50%;
+    
+    }
+
+    article:nth-of-type(3) > div{
+        margin-left: 5%;
+        width: 45%;
+        height: 50%;
+    }
+
+    article:nth-of-type(3) > img{
+        margin-right:5%;
+        width: 45%;
+        height: 50%;
+    
+    }
+
+    /* intro container*/
+
+    #intro-container{
+        background-color: #c5192d;
+        height: 100%;
+        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%)
     }
 }
 
